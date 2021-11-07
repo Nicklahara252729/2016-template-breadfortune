@@ -1,0 +1,81 @@
+$(function(){
+    $('*').css({
+        'margin':'0',
+        'padding':'0'
+    });
+    $('body').css({
+        'margin':'0 auto',
+        'height':'5000px'
+    });
+    $('header').css({
+        'width':'100%',
+        'height':'650px',
+        'background':'#3195D0'
+    });
+    $('.menu').css({
+        'width':'100%',
+        'height':'50px',
+        'background':'#60207E',
+        'boxShadow':'0px 0px 3px 0px #000'
+    });
+    $('.circle').css({
+        'width':'550px',
+        'height':'550px',
+        'borderRadius':'50%',
+        'background':'yellow',
+        'position':'absolute',
+        'marginLeft':'400px',
+        'marginTop':'50px',
+        'boxShadow':'0px 0px 3px 0px #dedede'
+    });
+    $('.circle-img').css({
+        'width':'500px',
+        'height':'500px',
+        'borderRadius':'50%',
+        'marginLeft':'25px',
+        'marginTop':'25px'
+    });
+    /*$('.top').css({
+        'position':'absolute',
+        'width':'200px',
+        'height':'100px',
+        'marginTop':'250px',
+        'marginLeft':'170px',
+        'fontFamily':'Confetti Stream',
+        'fontSize':'110px',
+        'textAlign':'center',
+        'color':'#fff',
+    });*/
+    $('.top').eq(1).css({
+       'marginLeft':'960px' 
+    });
+    $('.search-txt').css({
+        'width':'300px',
+        'height':'30px',
+        'borderRadius':'20px',
+        'border':'0',
+        'marginTop':'9px',
+        'marginLeft':'0px',
+        'paddingLeft':'20px',
+        'fontFamily':'arial',
+        'fontSize':'13px'
+    });
+    $('.btn-search').css({
+        'width':'30px',
+        'height':'30px',
+        'border':'0',
+        'borderRadius':'20px',
+        'background':'#fff',
+        'marginLeft':'-40px',
+        'position':'absolute',
+        'marginTop':'11px'
+    });
+    $('.btn-info').css({
+        'width':'50px',
+        'height':'50px',
+        'border':'0',
+        'boxShadow':'0px 0px 0px 0px',
+        'background':'rgba(0,0,0,0.0)',
+        'marginRight':'20px'
+    });
+});
